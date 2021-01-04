@@ -1,13 +1,35 @@
+#automation{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+
 body{
+    margin: 0%;
     font-family: 'Poppins', sans-serif;
 }
 
+.bottom-banner{
+    background-image: url(/images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon, tomato);
+    border-image-slice: 1;
+}
+#foot{
+    text-align: center;
+    color: cyan;
+}
 h1{
     font-size: 45px;
     
 }
 
-.name-color{
+.orange-color{
     color: orange;
 
 }
@@ -22,3 +44,39 @@ h1{
 .half-width img{
     width: 75%;
 }
+.link-button{
+    text-decoration: none;
+    background-color: orange;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 800px;
+}
+.middle-banner{
+    background-image: url("/images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+section{
+    height: 500px;
+    padding-bottom: 100px;
+}
+
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 70%;
+    padding: 15px;
+    background-color: white;
+    
+}
+
+.top-banner{
+    background-image: url("/images/top-banner.png");
+    background-repeat: no-repeat;
+ }
+
+ .work{
+     margin-left: 95px;
+ }
